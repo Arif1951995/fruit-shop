@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+}
+div.container {
+   display: flex;
+   justify-content: center;
+   height: 100%;
+   background-image: linear-gradient(to bottom, #40454a, #5e6578, #3c4143);
+   
+}
+header {
+    background-image: linear-gradient(to bottom, #40454a, #5e6578, #3c4143);
+    padding: 5px;
+    color: white;
+
+}
+
+.inputPrice input {
+    border: 1px solid black;
+    padding: 5px 5px;
+    width: 30px;
+    border-radius: 100%;
+    font-weight: bold;
+    
+}
+ input::placeholder{
+    text-align: center;
+ }
+ .outPutTotal {
+     background-color: #efe2cc;
+     
+     padding: 10px;
+     
+     
+ }
+ .outPutTotal h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .outPutTotal span {
+     color: #ed462f;
+     font-size: 2em;
+     padding-left: 10px;
+ }
+ div.fruits {
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%
+ }
+ 
+
+figure {
+    width: 25%;
+    height: 300px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: white;
+    
+}
+figure > .price {
+    background-color: aquamarine;
+    padding: 10px;
+    font-weight: bold;
+}
+img {
+    width: 70%;
+    height: 50%;
+}
+.quantity {
+    margin: 0;
+    padding: 0;
+}
+.quantity input {
+    width: 50%;
+    margin: 0;
+
+}
+#message {
+    color: red;
+}
+@media (max-width: 768px) {
+    figure {
+        width: 50%;
+    }
+}
+@media (max-width: 425px) {
+    figure {
+        width: 90%;
+    }
+}
